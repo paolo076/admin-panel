@@ -116,7 +116,9 @@
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
-
+                    <div ng-app="myApp" ng-controller="PieCtrl">
+                        <canvas id="pie" class="chart chart-pie" chart-data="data" chart-labels="labels" chart-options="options"> </canvas> 
+                    </div>
                 </div>
             </div>
         </div>
@@ -154,11 +156,12 @@
 	<script src="assets/js/bootstrap-checkbox-radio-switch.js"></script>
 
     <!-- Angular Plugin -->
-    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/node_modules/angular/angular.min.js"></script>
 
 	<!--  Charts Plugin -->
-	<script src="assets/js/Chart.min.js"></script>
-    <script src="assets/js/angular-chart.min.js"></script>
+    <script src="assets/node_modules/chart.js/dist/Chart.js"></script>
+    <script src="assets/node_modules/angular-chart.js/dist/angular-chart.min.js"></script>
+    <script src="assets/js/angularChart.js"></script>
 
     <!--  Notifications Plugin    -->
     <script src="assets/js/bootstrap-notify.js"></script>
@@ -168,9 +171,5 @@
 
     <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
 	<script src="assets/js/light-bootstrap-dashboard.js"></script>
-
-	<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
-	<script src="assets/js/demo.js"></script>
-
 
 </html>
