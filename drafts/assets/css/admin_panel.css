@@ -16,8 +16,8 @@
     padding: 15px 15px 10px 15px;
 }
 
-.chart-pie{
-    padding-left: 15rem;
-}
-
 /* Profile */
+.btn{
+    background-color: #004f6d !important;
+    border-color: #004f6d !important;
+}

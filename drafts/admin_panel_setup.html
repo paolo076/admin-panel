@@ -10,9 +10,6 @@
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
 
-    <!-- Custom CSS -->
-    <link href="assets/css/admin_panel.css" rel="stylesheet" />
-
     <!-- Bootstrap core CSS     -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -21,6 +18,9 @@
 
     <!--  Light Bootstrap Table core CSS    -->
     <link href="assets/css/light-bootstrap-dashboard.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    <link href="assets/css/admin_panel.css" rel="stylesheet" />
 
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -153,12 +153,13 @@
 	<!--  Checkbox, Radio & Switch Plugins -->
 	<script src="assets/js/bootstrap-checkbox-radio-switch.js"></script>
 
-	<!-- Angular Plugin -->
-    <script src="assets/js/angular.min.js"></script>
+    <!-- Angular Plugin -->
+    <script src="assets/node_modules/angular/angular.min.js"></script>
 
 	<!--  Charts Plugin -->
-	<script src="assets/js/Chart.min.js"></script>
-    <script src="assets/js/angular-chart.min.js"></script>
+    <script src="assets/node_modules/chart.js/dist/Chart.js"></script>
+    <script src="assets/node_modules/angular-chart.js/dist/angular-chart.min.js"></script>
+    <script src="assets/js/angularChart.js"></script>
 
     <!--  Notifications Plugin    -->
     <script src="assets/js/bootstrap-notify.js"></script>
@@ -168,9 +169,5 @@
 
     <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
 	<script src="assets/js/light-bootstrap-dashboard.js"></script>
-
-	<!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
-	<script src="assets/js/demo.js"></script>
-
 
 </html>
