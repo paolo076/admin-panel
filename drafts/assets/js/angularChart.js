@@ -40,3 +40,17 @@ app.controller("LineCtrl", function($scope){
                   borderColor: '#F78511',
                 },];  
 });
+
+app.controller("tListCtrl", function($scope){
+    $scope.tList_records = [
+        {
+            id: 7,
+            name: "Bob Marley",
+            salary: "$50,000",
+            country: "Jamaica",
+            city: "Africa"
+        }
+    ];
+
+    console.log(angular.toJson($scope.tList_records));
+});
