@@ -44,22 +44,13 @@ app.controller("LineCtrl", function($scope){
 app.controller("tListCtrl", function($scope){
     $scope.tList_records = [
         {
-            name: "Bob Marley",
-            salary: "$50,000",
-            country: "Jamaica",
-            city: "Africa"
+            report_name: "Bob Marley",
         },
         {
-            name: "Bill Gates",
-            salary: "$30,000",
-            country: "USA",
-            city: "Los Angeles"
+            report_name: "Bill Gates",
         },
         {
-            name: "Steve Jobs",
-            salary: "$25,000",
-            country: "USA",
-            city: "New York"
+            report_name: "Steve Jobs",
         }
     ];
 
